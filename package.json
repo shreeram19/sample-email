@@ -1,0 +1,16 @@
+{
+  "name": "zeta",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "lite-server": "^2.1.0"
+  }
+}

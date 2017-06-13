@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport"
+         content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+      <title>Zeta E-mail</title>
+      
+      <link rel="stylesheet" href="styles/all.css" type="text/css">
+
+   </head>
+   <body class="desktop">
+      <section class="side-nav side-nav-opened hide-nav-partial hide-nav-complete">
+         <div class="compose-section partial complete">
+            <div class="compose-button">
+               <button class="compose" type="button">Compose</button>
+            </div>
+            <div class="compose-image">
+            </div>
+         </div>
+         <div class="mailbox-list partial complete">
+            <ul>
+               <li class="selected">
+                  <button type="button" class="item-button">
+                     <div class="mailbox-item">
+                        <span class="item-name"> Inbox </span>
+                        <span class="item-unread"> 8</span> 
+                     </div>
+                  </button>
+               </li>
+               <li class="">
+                  <button type="button" class="item-button">
+                     <div class="mailbox-item">
+                        <span class="item-name"> Draft </span>
+                     </div>
+                  </button>
+               </li>
+               <li class="">
+                  <button type="button" class="item-button">
+                     <div class="mailbox-item">
+                        <span class="item-name"> Company </span>
+                        <span class="item-unread"> 8</span> 
+                     </div>
+                  </button>
+               </li>
+               <li class="">
+                  <button type="button" class="item-button">
+                     <div class="mailbox-item">
+                        <span class="item-name"> Sent </span>
+                     </div>
+                  </button>
+               </li>
+            </ul>
+         </div>
+         <div class="label-list partial complete">
+            <header>
+               <h5>Labels</h5>
+            </header>
+            <button type="button" class="add-label">+</button>
+            <ul>
+               <li class="selected">
+                  <div class="label-item">
+                     <button type="button" class="label-checkbox"></button>
+                     <span class="item-name"> Blue </span>
+                  </div>
+               </li>
+               <li class="">
+                  <div class="label-item">
+                     <button type="button" class="label-checkbox selected"></button>
+                     <span class="item-name"> Release 1 </span>
+                  </div>
+               </li>
+               <li class="">
+                  <div class="label-item">
+                     <button type="button" class="label-checkbox"></button>
+                     <span class="item-name"> Claims </span>
+                  </div>
+               </li>
+               <li class="">
+                  <div class="label-item">
+                     <button type="button" class="label-checkbox"></button>
+                     <span class="item-name"> Team outing </span>
+                  </div>
+                  </button>
+               </li>
+            </ul>
+         </div>
+      </section>
+      <section class="main-section">
+         <section class="heading-wrapper">
+            <header class="heading">
+               <h2>Inbox</h2>
+            </header>
+            <div class="search-wrapper">
+               <input id="email-search" type="text" class="email-search-input" />
+               <label for="email-search"></label>
+            </div>
+         </section>
+      <section class="mails-section">
+          <div class="top-pannel">
+            <div class="mail-meta"> 
+                <img src='../images/email.png' width="30px height="30px" class="item-image" alt="Profile image not found"/>
+                <img src='../images/email.png' width="30px height="30px" class="item-image" alt="Profile image not found"/>
+                <img src='../images/email.png' width="30px height="30px" class="item-image" alt="Profile image not found"/>
+                <img src='../images/email.png' width="30px height="30px" class="item-image" alt="Profile image not found"/>
+                </div>
+                <div class="sort-wrapper">
+                    <button class="alpha">
+                        Alphabetically
+                    </button>
+                    <button class="recent selected">
+                        Recent
+                        </button>
+                </div>
+          </div>
+
+          <div class="mail-list-wrapper">
+              <ul id="mails">
+
+                  </ul>
+              </div>
+      </section>
+
+      </section>
+
+      <template id="mail-temp">
+     <li>
+          <div class="mail-item">
+          <img src='' width="30px height="30px" class="item-image" alt="Profile image not found"/>
+        <span class="mailer-name"></span>
+        <span class="mail-subject"></span>
+        <span class="mail-time"></span>
+        </div>
+    </li>
+</template>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="scripts/app.js"></script>
+   </body>
+</html>

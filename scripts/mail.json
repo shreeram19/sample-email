@@ -1,0 +1,109 @@
+{   
+    "count" : 20,
+    "mails" : [
+        {
+            "img" : "m1.png",
+            "name" : "shreeram p",
+            "subject" : "Design Approved",
+            "time" : "Today 1pm"
+        },
+         {
+            "img" : "m2.png",
+            "name" : "Shardhul",
+            "subject" : "Issue in module",
+            "time" : "Today 1pm"
+        },
+         {
+            "img" : "m3.png",
+            "name" : "akshya",
+            "subject" : "Fun party tomorrow ",
+            "time" : "Today 1pm"
+        },{
+            "img" : "m4.png",
+            "name" : "Thomas",
+            "subject" : "Please wait till deployment",
+            "time" : "Today 1pm"
+        },
+         {
+            "img" : "m5.png",
+            "name" : "Meenakshi",
+            "subject" : "QA sign off completed",
+            "time" : "Today 1pm"
+        },
+         {
+            "img" : "m6.png",
+            "name" : "Alok p",
+            "subject" : "Update Yoru details",
+            "time" : "3-/05/2017 10:00 am"
+        },{
+            "img" : "m7.png",
+            "name" : "jithen",
+            "subject" : "Meeting Setup",
+            "time" : "Today 1pm"
+        },
+         {
+            "img" : "m8.png",
+            "name" : "Jagan",
+            "subject" : "Lunch Outing",
+            "time" : "10/06/2017 2:30pm"
+        },
+         {
+            "img" : "m9.png",
+            "name" : "goutham p",
+            "subject" : "Design rejected",
+            "time" : "Yesterday 1pm"
+        }, {
+            "img" : "m1.png",
+            "name" : "shreeram p",
+            "subject" : "Design Approved",
+            "time" : "Today 1pm"
+        },
+         {
+            "img" : "m2.png",
+            "name" : "Shardhul",
+            "subject" : "Issue in module",
+            "time" : "Today 1pm"
+        },
+         {
+            "img" : "m3.png",
+            "name" : "akshya",
+            "subject" : "Fun party tomorrow ",
+            "time" : "Today 1pm"
+        },{
+            "img" : "m4.png",
+            "name" : "Thomas",
+            "subject" : "Please wait till deployment",
+            "time" : "Today 1pm"
+        },
+         {
+            "img" : "m5.png",
+            "name" : "Meenakshi",
+            "subject" : "QA sign off completed",
+            "time" : "Today 1pm"
+        },
+         {
+            "img" : "m6.png",
+            "name" : "Alok p",
+            "subject" : "Update Yoru details",
+            "time" : "3-/05/2017 10:00 am"
+        },{
+            "img" : "m7.png",
+            "name" : "jithen",
+            "subject" : "Meeting Setup",
+            "time" : "Today 1pm"
+        },
+         {
+            "img" : "m8.png",
+            "name" : "Jagan",
+            "subject" : "Lunch Outing",
+            "time" : "10/06/2017 2:30pm"
+        },
+         {
+            "img" : "m9.png",
+            "name" : "goutham p",
+            "subject" : "Design rejected",
+            "time" : "Yesterday 1pm"
+        }
+
+    ]
+}
